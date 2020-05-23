@@ -1,0 +1,6 @@
+User-Agent: Googlebot
+Disallow:
+User-Agent: Seznambot
+Disallow:
+Sitemap: https://www.pinguino.cz/sitemap.xml
+

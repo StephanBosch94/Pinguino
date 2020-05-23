@@ -1,0 +1,366 @@
+body {
+  font-family: 'Poppins', sans-serif;;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+.manual-text{
+font-weight: 400;
+font-size: 1.5rem;
+margin-top: 1.5rem;
+text-align: left;
+}
+
+p {
+  font-size: 1rem;
+}
+.p-footer{
+  font-size: 1rem;
+  margin-bottom: 0%;
+}
+.p-black{
+  color: #000;
+  font-size: 1rem;
+}
+.h4-regular{
+  font-weight: 400;
+  margin-top: 20px;
+  text-align: left;
+}
+
+/* Headings */
+
+.big-heading {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+.big-heading-white {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+.medium-heading{
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin: 5% 0%;
+}
+.medium-heading-white{
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin: 5% 0%;
+  color: #fff;
+}
+
+.section-heading {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.5;
+  color: #000;
+}
+.section-heading-white{
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.5;
+  color: #fff;
+}
+.col-lg-6{
+  padding: 0% 2.5%;
+}
+/* Containers */
+
+.container-fluid{
+  padding: 3% 8%;
+}
+
+
+.container-fluid-navbar{
+  padding: 1% 8%;
+}
+.container-fluid-navbar-no-buttom{
+  padding: 1% 8% 0% 8%;
+}
+.container-fluid-intro{
+  padding: 8% 8% 8% 8%;
+}
+.container-fluid-footer{
+  padding: 1% 8% 3% 8%;
+}
+.fixed-top{
+  padding: 1% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #FFA002;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+.colored-section-footer {
+  background-color: rgb(231, 143, 2);
+  color: #fff;
+}
+
+/* Navigation Bar */
+
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.brand-icon{
+  width: 12rem;
+}
+.fa-circle{
+  color: #686767;
+  opacity: 10%;
+}
+.fa-circle:hover{
+  color: #fff;
+  opacity: 40%;
+}
+.nav-bar{
+  transition: all 2s ease-in-out;
+
+}
+.nav-item {
+  font-size: 1rem;
+  padding: 5px 0.75rem;
+  text-align: center;
+}
+.navbar-toggler{
+  background-color: #fff;
+  border: none;
+}
+.navbar-toggler-icon{
+  color:#FFA002; 
+}
+.navbar-collapse.collapsing,
+.navbar-collapse.show {
+    padding-top: 10px;
+}
+
+
+.contact-button{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #FFA002;
+  border-color: #fff;
+  background-color: #fff;
+}
+.contact-button:hover {
+  font-size: 1rem;
+  font-weight: 400;
+  background-color: #fff;
+  border-color: #fff;
+  color: #FFA002;
+}
+.intro-button{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #FFA002;
+  border-color: #fff;
+  background-color: #fff;
+  margin-bottom: 5%;
+}
+.intro-button:hover {
+  font-size: 1rem;
+  font-weight: 400;
+  background-color: #fff;
+  border-color: #fff;
+  color: #FFA002;
+  margin-bottom: 5%;
+}
+.contact-form-colored{
+  background-color: #FFA002;
+  border-radius: 5px;
+}
+/* Title Section */
+#intro {
+  background-color: #FFA002;
+  color: #fff;
+  text-align: left;
+}
+@media (max-width: 1028px) {
+
+  #intro {
+    text-align: center;
+  }
+}
+
+/* Title Image */
+.img-fluid{
+  width: 40%;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+/* Benefits Section */
+.benefits-title{
+  font-weight: 700;
+  color: #000;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+#benefits {
+  position: relative;
+}
+
+.benefits {
+  font-size: 1.5rem;
+}
+
+.benefits-box {
+  padding: 7% 2% 4% 2%;
+}
+
+.icon {
+  color: #FFA002;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #000;
+}
+.image-manual{
+  width: 80%;
+}
+
+
+/* Reference Section */
+
+.reference-logo {
+  width: 30%;
+  margin: 20px;
+}
+.carousel-control-next-black,
+.carousel-control-prev-black {
+    filter: invert(100%);
+}
+
+/* Integration Section */
+#partners {
+  background-color: #fff;
+  padding-bottom: 3%;
+}
+.partners-logo {
+  width: 10rem;
+  margin: 20px 20px 50px;
+}
+
+/* Footer Section */
+.footer-link{
+  color: #fff;
+  margin-top: 1.2rem;
+  font-size: 1rem;
+}
+.footer-link:hover{
+  text-decoration: underline;
+  color: #fff;
+}
+.footer-logo {
+  width: 12rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.footer-header{
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+.footer-text{
+  margin-bottom: 0%;
+}
+.social-icon {
+  color: #FFA002; 
+}
+.fa-stack{
+  margin: 1% 0.5%;
+}
+
+
+/*             Contact page           */
+.label{
+  display: inline-block;
+  width: 140px;
+  text-align: right;
+}
+.submit-button{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #FFA002;
+  background-color: #fff;
+  border-color: #fff;
+  margin: 20% 0%;
+
+}
+.submit-button:hover{
+  color: #FFA002;
+  background-color: #fff;
+  border-color: #fff;
+  margin: 20% 0%;
+}
+.form-group{
+  margin: 0%;
+}
+.contact-heading{
+  padding: 2% 0%;
+  color: #fff;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  text-align: left;
+}
+.google-map{
+  width: 100%;
+  height: 100%;
+
+}
+.col-lg-6.map-section{
+  padding: 2% 2%;
+}
+.form-heading{
+  color: #fff;
+  margin-top: 2%;
+  text-align: left;
+}
+.form-sub-title{
+  color: #fff;
+  margin-top: 2%;
+  text-align: left;
+  font-size: 1.5rem;
+}
+.input{
+  font-weight: 200;
+  font-size: 1rem;
+  color: grey;
+}
+/*             Guests page           */
+.manual-title{
+  text-align: left;
+  font-weight: 700;
+  color: #000;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.manual-description{
+  text-align: left;
+}
+.manual-title-white{
+  text-align: left;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.payments-logo {
+  width: 10rem;
+  margin: 70px 50px 0px;
+}

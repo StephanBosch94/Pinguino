@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="cs" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Přinášíme vyšší efektivitu fungování restaurací, bister a barů.
+  Otevřete dveře digitalizaci i ve vašem podniku.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">  <!-- Flaticon -->
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+ <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114571712-2"></script>
+ <script>
+   window.dataLayer = window.dataLayer || [];
+   function gtag(){dataLayer.push(arguments);}
+   gtag('js', new Date());
+ 
+   gtag('config', 'UA-114571712-2');
+ </script>
+  <link rel="icon" href="images/pinguino.ico">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+    <title>Pinguino</title>
+</head>
+
+<body>
+  <section class="colored-section" id="title">
+
+    <div class="container-fluid-navbar">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href="index.html">
+          <img src="images/Pinguino.svg" class="brand-icon" alt="brand-icon"></a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon">   
+              <i class="fas fa-bars fa-lg"></i>
+          </span>
+          </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Restaurace</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="guests.html">Hosti</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html">
+                <button type="button" class="btn btn-outline-success btn-lg contact-button"><i
+                    class="fas fa-bell"></i> Chci Pinguino</button>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </nav>
+    </div>
+
+  </section>
+
+
+  <!-- Title -->
+
+
+  <section class="white-section" id="contact">
+
+    <div class="container-fluid">
+
+      <div class="row contact-form-colored">
+        <div class="col-lg-6">
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-12">
+                <h1 class="contact-heading">Napište a my se Vám ozveme! </h1>
+              </div>
+            </div>
+              <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputName"></label>
+                <input type="text" class="form-control form-control-lg input" id="inputName" placeholder="Jméno a Příjmení">
+              </div>
+
+              <div class="form-group col-md-6">
+                <label for="inputEmail"></label>
+                <input type="email" class="form-control form-control-lg input" id="inputEmail" placeholder="Email">
+              </div>
+            </div>
+          
+
+
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputCompany"></label>
+                <input type="text" class="form-control form-control-lg input" id="inputCompany" placeholder="Název podniku">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPOS"></label>
+                <select class="form-control form-control-lg input" id="inputPOS">
+                  <option>Pokladní systém</option>
+                  <option>Agnis</option>
+                  <option>Septim</option>
+                  <option>Storyous</option>
+                  <option>rKeeper</option>
+                  <option>Jine</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group col-md-12">
+                <label for="inputText"></label>
+                <textarea class="form-control form-control-lg input" id="inputText" placeholder="Zpráva" rows="4"></textarea>
+              </div>
+            </div>
+
+
+            <div class="form-row justify-content-center">
+              <div class="form-group">
+                <button type="submit" class="btn btn-lg btn-outline-success submit-button">Odeslat</button>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-lg-6 map-section">
+          <iframe class="google-map"
+             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2557.246775502311!2d14.550725415720121!3d50.13781517943353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470beda9fdcbeee9%3A0x351343331d7aaf11!2zTHXFoXTEm25pY2vDoSA3MjMvMTMsIDE5NyAwMCBLYmVseQ!5e0!3m2!1scs!2scz!4v1589866899095!5m2!1scs!2scz" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+
+      </div>
+      </form>
+
+    </div>
+    </div>
+    </div>
+  </section>
+
+
+ <!-- Footer -->
+ <footer class="colored-section" id="footer">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-3">
+        <h3 class="footer-header">Restaurace</h3>
+        <div class="row justify-content-center">
+          <a class="footer-link" href="index.html#benefits">Proč Pinguino?</a>
+        </div>
+        <div class="row justify-content-center">
+          <a class="footer-link" href="contact.html">Kontaktujte Obchodníka</a>
+        </div>
+        <div class="row justify-content-center">
+          <a class="footer-link" href="cms.html">Prihlašení do aplikace</a>
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <h3 class="footer-header">Hosti</h3>
+        <div class="row justify-content-center">
+          <a class="footer-link" href="guests.html#benefits">Proč Pinguino?</a>
+        </div>
+
+
+        <div class="row justify-content-center">
+          <a class="footer-link" href="guests.html#references">Kde nás najdete?</a>
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <h3 class="footer-header">Pinguino</h3>
+
+        <div class="row justify-content-center">
+          <a class="footer-link" href="aboutUs.html">O nás</a>
+        </div>
+
+        <div class="row justify-content-center">
+          <a class="footer-link" href="contact.html">Kontakt</a>
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <h3 class="footer-header">Obchodni podminky</h3>
+        <div class="row justify-content-center">
+          <a class="footer-link" href="terms.html">Podminky služby Pinguino</a>
+        </div>
+        <div class="row justify-content-center">
+          <a class="footer-link" href="terms.html">Reklamační řád</a>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+</footer>
+
+<section>
+  <div class="colored-section">
+    <div class="container-fluid-footer">
+      <span class="fa-stack fa-md">
+        <i class="fas fa-square fa-stack-2x"></i>
+        <a href="https://www.facebook.com/pinguinofb/"><i class="fab fa-facebook-f fa-stack-1x fa-inverse social-icon"></i></a>
+      </span>
+      <span class="fa-stack fa-md">
+        <i class="fas fa-square fa-stack-2x"></i>
+        <a href="https://www.instagram.com/pinguino_cz/"><i class="fab fa-instagram fa-stack-1x fa-inverse social-icon"></i></a>
+      </span>
+
+      <span class="fa-stack fa-md">
+        <i class="fas fa-square fa-stack-2x"></i>
+        <a href="contact.html"><i class="fas fa-envelope fa-stack-1x fa-inverse social-icon"></i></a>
+      </span>
+        <p class="p-footer">© Copyright 2020 Pinguino solutions s.r.o</p>
+      </div>
+    </div>
+</section>
+
+</body>
+
+</html>
